@@ -8,7 +8,7 @@ const person = {
 
 const updated = {
   ...person,
-  address = {
+  address : {
     ...person.address,
     city: "New York"
   },
